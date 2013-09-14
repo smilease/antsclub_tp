@@ -1,0 +1,174 @@
+body {
+	margin: 0;
+	font-size: 1em;
+	line-height: 1.4;
+}
+#bar{
+	height: 40px;
+	line-height: 40px;
+	background: #666;
+}
+.inner {
+	margin: 0 auto;
+	width: 950px;
+	font-size: 12px;
+}
+#bar, #bar a, #nav a, #login a {
+	color: #eee;
+}
+#logo{
+	float: left;
+	display: block;
+	margin-top: 5px;
+	margin-right: 2em;
+}
+
+#nav a{
+	float: left;
+	display: inline-block;
+	padding: 0 1em;
+	margin: 0;
+}
+a{
+	color: #3594b3;
+	text-decoration: none;
+}
+.right{
+	float: right;
+	margin-right: 80px;
+}
+#login a{
+	margin-left: 1.5em;
+	font-weight: bold;
+}
+#menu {
+	margin: 2.5em auto;
+	height: 30px;
+}
+#menu ul {
+	margin: 0;
+	padding: 0;
+}
+#menu ul li a {
+	font-size: 14px;
+	text-decoration: none;
+	color: #666;
+	display: inline-block;
+	padding: 4px 12px;
+	border-radius: 20px;
+}
+
+#menu ul li a:hover {
+	color:#636875;
+	background:#e1e1e1
+}
+a:visited {
+color: #3594B3;
+text-decoration: none;
+}
+
+ul,li {
+	list-style: none;
+	line-height: 20px;
+	float: left;
+	padding: 0;
+}
+
+#wrapper{
+	width: 950px;
+	height: 560px;
+	margin: 0 auto;
+}
+#content{
+	width: 950px;
+	height: 400px;
+}
+#left{
+	width: 620px;
+	height: 400px;
+	float: left;
+}
+
+.hd {
+	height: 28px;
+	border-bottom: 1px dotted #dadada;
+	padding-bottom: 0;
+}
+h2{
+	font-size: 14px;
+	font-weight: normal;
+}
+.more{
+	float: right;
+}
+.info{
+	height: 200px;
+	font-size: 12px;
+}
+.info_l {
+	height: 170px;
+	margin-left: 10px;
+	width: 200px;
+}
+.video_left{
+	width: 620px;
+	height: 400px;
+	float: left;
+}
+.video_l {
+	height: 150px;
+	margin-left: 10px;
+	width: 142px;
+}
+.video_detial_l {
+	padding-left: 0;
+}
+.info_r {
+	height: 160px;
+	margin-left: 15px;
+	width: 190px;
+	overflow: hidden;
+}
+.title_l{
+	margin-left: 10px;
+	color: #37a;
+}
+.title_r{
+	color: #37a;
+}
+.detail_l {
+	margin-left: 10px;
+	padding-left: 0;
+}
+.detail_r {
+	padding-left: 0;
+}
+
+#right {
+	width: 280px;
+	height: 400px;
+	float: left;
+	padding-left: 36px;
+}
+.empty{
+	height: 20px;
+	display: block;
+}
+.active_info{
+	height: 260px;
+	font-size: 12px;
+}
+.video_list{
+	height: 160px;
+	font-size: 12px;
+}
+.active{
+	margin-bottom: 30px;
+}
+#footer{
+	border-top:1px solid #ddd;
+	height: 100px;
+	width: 100%;
+	bottom: 0;
+	padding-bottom: 0;
+}

@@ -1,0 +1,1900 @@
+[ 2013-09-14T00:02:16+08:00 ] 65.55.213.73 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000610s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.000772s ]
+SQL: SELECT * FROM `activity` WHERE ( typeCode="badminton" ) ORDER BY createTime desc LIMIT 3   [ RunTime:0.000082s ]
+SQL: SELECT * FROM `activity` WHERE ( typeCode="swimming" ) ORDER BY createTime desc LIMIT 3   [ RunTime:0.000078s ]
+SQL: SELECT * FROM `activity` WHERE ( typeCode="billiards" ) ORDER BY createTime desc LIMIT 3   [ RunTime:0.000076s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  uname /alidata/www/antsclub/Index/Runtime/Cache/e9ca3d00a40c8a0e158f18fe2252bc69.php 第 25 行.
+NOTIC: [8] Undefined index:  role /alidata/www/antsclub/Index/Runtime/Cache/e9ca3d00a40c8a0e158f18fe2252bc69.php 第 49 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014152s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014265s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000314s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000318s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000210s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000390s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001447s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000557s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000651s ]
+
+[ 2013-09-14T00:02:25+08:00 ] 65.55.213.73 /index.php/Login/login.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000717s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000844s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000841s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  uname /alidata/www/antsclub/Index/Runtime/Cache/e5c7baedfdc4a8ba0a3244994ba009b3.php 第 24 行.
+NOTIC: [8] Undefined index:  role /alidata/www/antsclub/Index/Runtime/Cache/e5c7baedfdc4a8ba0a3244994ba009b3.php 第 48 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008946s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009025s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000305s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000301s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000190s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000387s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001422s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000557s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000629s ]
+
+[ 2013-09-14T00:02:28+08:00 ] 65.55.213.73 /index.php/Activity/view/id/116.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000749s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000854s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000534s ]
+SQL: select a.*,ua.signName,ua.signNum,ua.userName from activity a  left join user_activity ua on a.id=ua.activityId  where a.id="116" order by ua.signTime [ RunTime:0.000671s ]
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 65 行.
+NOTIC: [8] Use of undefined constant typeName - assumed 'typeName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 66 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 67 行.
+NOTIC: [8] Use of undefined constant startTime - assumed 'startTime' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 68 行.
+NOTIC: [8] Use of undefined constant endTime - assumed 'endTime' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 69 行.
+NOTIC: [8] Use of undefined constant address - assumed 'address' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 70 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 71 行.
+NOTIC: [8] Use of undefined constant maxNum - assumed 'maxNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 72 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  uname /alidata/www/antsclub/Index/Runtime/Cache/ab2fbf02f9e0aad89bd0b627ad1f3bde.php 第 25 行.
+NOTIC: [8] Undefined index:  role /alidata/www/antsclub/Index/Runtime/Cache/ab2fbf02f9e0aad89bd0b627ad1f3bde.php 第 49 行.
+NOTIC: [8] Undefined index:  role /alidata/www/antsclub/Index/Runtime/Cache/ab2fbf02f9e0aad89bd0b627ad1f3bde.php 第 68 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010953s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000300s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000332s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000185s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000411s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001437s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000537s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000610s ]
+
+[ 2013-09-14T00:02:30+08:00 ] 65.55.213.73 /index.php/Activity/view/id/100.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000751s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000858s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000556s ]
+SQL: select a.*,ua.signName,ua.signNum,ua.userName from activity a  left join user_activity ua on a.id=ua.activityId  where a.id="100" order by ua.signTime [ RunTime:0.000634s ]
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 65 行.
+NOTIC: [8] Use of undefined constant typeName - assumed 'typeName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 66 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 67 行.
+NOTIC: [8] Use of undefined constant startTime - assumed 'startTime' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 68 行.
+NOTIC: [8] Use of undefined constant endTime - assumed 'endTime' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 69 行.
+NOTIC: [8] Use of undefined constant address - assumed 'address' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 70 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 71 行.
+NOTIC: [8] Use of undefined constant maxNum - assumed 'maxNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 72 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  uname /alidata/www/antsclub/Index/Runtime/Cache/ab2fbf02f9e0aad89bd0b627ad1f3bde.php 第 25 行.
+NOTIC: [8] Undefined index:  role /alidata/www/antsclub/Index/Runtime/Cache/ab2fbf02f9e0aad89bd0b627ad1f3bde.php 第 49 行.
+NOTIC: [8] Undefined index:  role /alidata/www/antsclub/Index/Runtime/Cache/ab2fbf02f9e0aad89bd0b627ad1f3bde.php 第 68 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014105s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014227s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000394s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000366s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000304s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000561s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001979s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000808s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000934s ]
+
+[ 2013-09-14T00:02:37+08:00 ] 65.55.213.73 /index.php/Activity/view/id/105.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000755s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000878s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000563s ]
+SQL: select a.*,ua.signName,ua.signNum,ua.userName from activity a  left join user_activity ua on a.id=ua.activityId  where a.id="105" order by ua.signTime [ RunTime:0.000082s ]
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 65 行.
+NOTIC: [8] Use of undefined constant typeName - assumed 'typeName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 66 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 67 行.
+NOTIC: [8] Use of undefined constant startTime - assumed 'startTime' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 68 行.
+NOTIC: [8] Use of undefined constant endTime - assumed 'endTime' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 69 行.
+NOTIC: [8] Use of undefined constant address - assumed 'address' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 70 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 71 行.
+NOTIC: [8] Use of undefined constant maxNum - assumed 'maxNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 72 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  uname /alidata/www/antsclub/Index/Runtime/Cache/ab2fbf02f9e0aad89bd0b627ad1f3bde.php 第 25 行.
+NOTIC: [8] Undefined index:  role /alidata/www/antsclub/Index/Runtime/Cache/ab2fbf02f9e0aad89bd0b627ad1f3bde.php 第 49 行.
+NOTIC: [8] Undefined index:  role /alidata/www/antsclub/Index/Runtime/Cache/ab2fbf02f9e0aad89bd0b627ad1f3bde.php 第 68 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011096s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011176s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000306s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000337s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000190s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000379s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001421s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000570s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000643s ]
+
+[ 2013-09-14T00:02:39+08:00 ] 65.55.213.73 /index.php/Activity/view/id/90.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000733s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000840s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000761s ]
+SQL: select a.*,ua.signName,ua.signNum,ua.userName from activity a  left join user_activity ua on a.id=ua.activityId  where a.id="90" order by ua.signTime [ RunTime:0.000654s ]
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 65 行.
+NOTIC: [8] Use of undefined constant typeName - assumed 'typeName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 66 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 67 行.
+NOTIC: [8] Use of undefined constant startTime - assumed 'startTime' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 68 行.
+NOTIC: [8] Use of undefined constant endTime - assumed 'endTime' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 69 行.
+NOTIC: [8] Use of undefined constant address - assumed 'address' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 70 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 71 行.
+NOTIC: [8] Use of undefined constant maxNum - assumed 'maxNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 72 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  uname /alidata/www/antsclub/Index/Runtime/Cache/ab2fbf02f9e0aad89bd0b627ad1f3bde.php 第 25 行.
+NOTIC: [8] Undefined index:  role /alidata/www/antsclub/Index/Runtime/Cache/ab2fbf02f9e0aad89bd0b627ad1f3bde.php 第 49 行.
+NOTIC: [8] Undefined index:  role /alidata/www/antsclub/Index/Runtime/Cache/ab2fbf02f9e0aad89bd0b627ad1f3bde.php 第 68 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.025818s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025895s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000311s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000338s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000191s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000448s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001529s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000523s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000599s ]
+
+[ 2013-09-14T00:02:40+08:00 ] 65.55.213.73 /index.php/Activity/more/c/bi.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000754s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000860s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000547s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.000753s ]
+SQL: SELECT * FROM `activity` WHERE ( typeCode="billiards" ) ORDER BY createTime desc LIMIT 12   [ RunTime:0.000089s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  uname /alidata/www/antsclub/Index/Runtime/Cache/5e78ec5ea9688124a5a9cdff9d1ea70d.php 第 25 行.
+NOTIC: [8] Undefined index:  role /alidata/www/antsclub/Index/Runtime/Cache/5e78ec5ea9688124a5a9cdff9d1ea70d.php 第 49 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011508s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011594s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000313s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000334s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000191s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000382s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001429s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000537s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000614s ]
+
+[ 2013-09-14T00:02:42+08:00 ] 65.55.213.73 /index.php/Activity/view/id/99.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000748s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000852s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000556s ]
+SQL: select a.*,ua.signName,ua.signNum,ua.userName from activity a  left join user_activity ua on a.id=ua.activityId  where a.id="99" order by ua.signTime [ RunTime:0.000651s ]
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 65 行.
+NOTIC: [8] Use of undefined constant typeName - assumed 'typeName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 66 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 67 行.
+NOTIC: [8] Use of undefined constant startTime - assumed 'startTime' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 68 行.
+NOTIC: [8] Use of undefined constant endTime - assumed 'endTime' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 69 行.
+NOTIC: [8] Use of undefined constant address - assumed 'address' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 70 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 71 行.
+NOTIC: [8] Use of undefined constant maxNum - assumed 'maxNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 72 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  uname /alidata/www/antsclub/Index/Runtime/Cache/ab2fbf02f9e0aad89bd0b627ad1f3bde.php 第 25 行.
+NOTIC: [8] Undefined index:  role /alidata/www/antsclub/Index/Runtime/Cache/ab2fbf02f9e0aad89bd0b627ad1f3bde.php 第 49 行.
+NOTIC: [8] Undefined index:  role /alidata/www/antsclub/Index/Runtime/Cache/ab2fbf02f9e0aad89bd0b627ad1f3bde.php 第 68 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012132s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012227s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000334s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000327s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000220s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000386s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001483s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000585s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000676s ]
+
+[ 2013-09-14T00:02:45+08:00 ] 65.55.213.73 /index.php/Activity/view/id/111.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000726s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000830s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000539s ]
+SQL: select a.*,ua.signName,ua.signNum,ua.userName from activity a  left join user_activity ua on a.id=ua.activityId  where a.id="111" order by ua.signTime [ RunTime:0.000086s ]
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 65 行.
+NOTIC: [8] Use of undefined constant typeName - assumed 'typeName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 66 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 67 行.
+NOTIC: [8] Use of undefined constant startTime - assumed 'startTime' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 68 行.
+NOTIC: [8] Use of undefined constant endTime - assumed 'endTime' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 69 行.
+NOTIC: [8] Use of undefined constant address - assumed 'address' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 70 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 71 行.
+NOTIC: [8] Use of undefined constant maxNum - assumed 'maxNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 72 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  uname /alidata/www/antsclub/Index/Runtime/Cache/ab2fbf02f9e0aad89bd0b627ad1f3bde.php 第 25 行.
+NOTIC: [8] Undefined index:  role /alidata/www/antsclub/Index/Runtime/Cache/ab2fbf02f9e0aad89bd0b627ad1f3bde.php 第 49 行.
+NOTIC: [8] Undefined index:  role /alidata/www/antsclub/Index/Runtime/Cache/ab2fbf02f9e0aad89bd0b627ad1f3bde.php 第 68 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011716s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011799s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000332s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000311s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000186s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000394s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001435s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000517s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000590s ]
+
+[ 2013-09-14T00:02:46+08:00 ] 65.55.213.73 /index.php/Activity/view/id/115.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000746s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000884s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000536s ]
+SQL: select a.*,ua.signName,ua.signNum,ua.userName from activity a  left join user_activity ua on a.id=ua.activityId  where a.id="115" order by ua.signTime [ RunTime:0.000084s ]
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 65 行.
+NOTIC: [8] Use of undefined constant typeName - assumed 'typeName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 66 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 67 行.
+NOTIC: [8] Use of undefined constant startTime - assumed 'startTime' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 68 行.
+NOTIC: [8] Use of undefined constant endTime - assumed 'endTime' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 69 行.
+NOTIC: [8] Use of undefined constant address - assumed 'address' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 70 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 71 行.
+NOTIC: [8] Use of undefined constant maxNum - assumed 'maxNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 72 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  uname /alidata/www/antsclub/Index/Runtime/Cache/ab2fbf02f9e0aad89bd0b627ad1f3bde.php 第 25 行.
+NOTIC: [8] Undefined index:  role /alidata/www/antsclub/Index/Runtime/Cache/ab2fbf02f9e0aad89bd0b627ad1f3bde.php 第 49 行.
+NOTIC: [8] Undefined index:  role /alidata/www/antsclub/Index/Runtime/Cache/ab2fbf02f9e0aad89bd0b627ad1f3bde.php 第 68 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011089s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011170s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000327s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000313s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000185s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000402s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001445s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000511s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000616s ]
+
+[ 2013-09-14T00:02:49+08:00 ] 65.55.213.73 /index.php/Activity/more/c/sw.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000750s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000857s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000535s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.000743s ]
+SQL: SELECT * FROM `activity` WHERE ( typeCode="swimming" ) ORDER BY createTime desc LIMIT 12   [ RunTime:0.000085s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  uname /alidata/www/antsclub/Index/Runtime/Cache/5e78ec5ea9688124a5a9cdff9d1ea70d.php 第 25 行.
+NOTIC: [8] Undefined index:  role /alidata/www/antsclub/Index/Runtime/Cache/5e78ec5ea9688124a5a9cdff9d1ea70d.php 第 49 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011209s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011311s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000315s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000343s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000184s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000375s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001432s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000523s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000602s ]
+
+[ 2013-09-14T00:02:51+08:00 ] 65.55.213.73 /index.php/Activity/view/id/117.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000771s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000876s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000567s ]
+SQL: select a.*,ua.signName,ua.signNum,ua.userName from activity a  left join user_activity ua on a.id=ua.activityId  where a.id="117" order by ua.signTime [ RunTime:0.000090s ]
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 65 行.
+NOTIC: [8] Use of undefined constant typeName - assumed 'typeName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 66 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 67 行.
+NOTIC: [8] Use of undefined constant startTime - assumed 'startTime' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 68 行.
+NOTIC: [8] Use of undefined constant endTime - assumed 'endTime' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 69 行.
+NOTIC: [8] Use of undefined constant address - assumed 'address' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 70 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 71 行.
+NOTIC: [8] Use of undefined constant maxNum - assumed 'maxNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 72 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  uname /alidata/www/antsclub/Index/Runtime/Cache/ab2fbf02f9e0aad89bd0b627ad1f3bde.php 第 25 行.
+NOTIC: [8] Undefined index:  role /alidata/www/antsclub/Index/Runtime/Cache/ab2fbf02f9e0aad89bd0b627ad1f3bde.php 第 49 行.
+NOTIC: [8] Undefined index:  role /alidata/www/antsclub/Index/Runtime/Cache/ab2fbf02f9e0aad89bd0b627ad1f3bde.php 第 68 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011237s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011319s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000323s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000309s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000213s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000591s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001704s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000813s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000951s ]
+
+[ 2013-09-14T00:02:53+08:00 ] 65.55.213.73 /index.php/Activity/view/id/114.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000768s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000869s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000577s ]
+SQL: select a.*,ua.signName,ua.signNum,ua.userName from activity a  left join user_activity ua on a.id=ua.activityId  where a.id="114" order by ua.signTime [ RunTime:0.000672s ]
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 65 行.
+NOTIC: [8] Use of undefined constant typeName - assumed 'typeName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 66 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 67 行.
+NOTIC: [8] Use of undefined constant startTime - assumed 'startTime' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 68 行.
+NOTIC: [8] Use of undefined constant endTime - assumed 'endTime' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 69 行.
+NOTIC: [8] Use of undefined constant address - assumed 'address' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 70 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 71 行.
+NOTIC: [8] Use of undefined constant maxNum - assumed 'maxNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 72 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  uname /alidata/www/antsclub/Index/Runtime/Cache/ab2fbf02f9e0aad89bd0b627ad1f3bde.php 第 25 行.
+NOTIC: [8] Undefined index:  role /alidata/www/antsclub/Index/Runtime/Cache/ab2fbf02f9e0aad89bd0b627ad1f3bde.php 第 49 行.
+NOTIC: [8] Undefined index:  role /alidata/www/antsclub/Index/Runtime/Cache/ab2fbf02f9e0aad89bd0b627ad1f3bde.php 第 68 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011073s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011176s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000314s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000304s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000213s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000385s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001424s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000557s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000635s ]
+
+[ 2013-09-14T00:02:55+08:00 ] 65.55.213.73 /index.php/Activity/more/c/ba.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000742s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000846s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000549s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.000718s ]
+SQL: SELECT * FROM `activity` WHERE ( typeCode="badminton" ) ORDER BY createTime desc LIMIT 12   [ RunTime:0.000092s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  uname /alidata/www/antsclub/Index/Runtime/Cache/5e78ec5ea9688124a5a9cdff9d1ea70d.php 第 25 行.
+NOTIC: [8] Undefined index:  role /alidata/www/antsclub/Index/Runtime/Cache/5e78ec5ea9688124a5a9cdff9d1ea70d.php 第 49 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010452s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010533s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000323s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000298s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000187s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000402s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001421s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000523s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000599s ]
+
+[ 2013-09-14T00:02:58+08:00 ] 65.55.213.73 /index.php/Login/register.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000752s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000860s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  uname /alidata/www/antsclub/Index/Runtime/Cache/084592a7684ff235479386cb47a25df3.php 第 25 行.
+NOTIC: [8] Undefined index:  role /alidata/www/antsclub/Index/Runtime/Cache/084592a7684ff235479386cb47a25df3.php 第 49 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009840s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009959s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000315s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000317s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000212s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000392s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001447s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000546s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000619s ]
+
+[ 2013-09-14T01:45:34+08:00 ] 157.55.32.52 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000600s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.000739s ]
+SQL: SELECT * FROM `activity` WHERE ( typeCode="badminton" ) ORDER BY createTime desc LIMIT 3   [ RunTime:0.000101s ]
+SQL: SELECT * FROM `activity` WHERE ( typeCode="swimming" ) ORDER BY createTime desc LIMIT 3   [ RunTime:0.000076s ]
+SQL: SELECT * FROM `activity` WHERE ( typeCode="billiards" ) ORDER BY createTime desc LIMIT 3   [ RunTime:0.000076s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  uname /alidata/www/antsclub/Index/Runtime/Cache/e9ca3d00a40c8a0e158f18fe2252bc69.php 第 25 行.
+NOTIC: [8] Undefined index:  role /alidata/www/antsclub/Index/Runtime/Cache/e9ca3d00a40c8a0e158f18fe2252bc69.php 第 49 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016962s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017042s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000321s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000303s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000186s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000399s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001418s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000537s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000614s ]
+
+[ 2013-09-14T02:52:57+08:00 ] 222.186.25.29 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000588s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.000723s ]
+SQL: SELECT * FROM `activity` WHERE ( typeCode="badminton" ) ORDER BY createTime desc LIMIT 3   [ RunTime:0.000168s ]
+SQL: SELECT * FROM `activity` WHERE ( typeCode="swimming" ) ORDER BY createTime desc LIMIT 3   [ RunTime:0.000078s ]
+SQL: SELECT * FROM `activity` WHERE ( typeCode="billiards" ) ORDER BY createTime desc LIMIT 3   [ RunTime:0.000076s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  uname /alidata/www/antsclub/Index/Runtime/Cache/e9ca3d00a40c8a0e158f18fe2252bc69.php 第 25 行.
+NOTIC: [8] Undefined index:  role /alidata/www/antsclub/Index/Runtime/Cache/e9ca3d00a40c8a0e158f18fe2252bc69.php 第 49 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013813s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013899s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000318s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000298s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000182s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000400s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001425s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000548s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000624s ]
+
+[ 2013-09-14T03:45:14+08:00 ] 110.75.19.4 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000569s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.000971s ]
+SQL: SELECT * FROM `activity` WHERE ( typeCode="badminton" ) ORDER BY createTime desc LIMIT 3   [ RunTime:0.000091s ]
+SQL: SELECT * FROM `activity` WHERE ( typeCode="swimming" ) ORDER BY createTime desc LIMIT 3   [ RunTime:0.000075s ]
+SQL: SELECT * FROM `activity` WHERE ( typeCode="billiards" ) ORDER BY createTime desc LIMIT 3   [ RunTime:0.000077s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  uname /alidata/www/antsclub/Index/Runtime/Cache/e9ca3d00a40c8a0e158f18fe2252bc69.php 第 25 行.
+NOTIC: [8] Undefined index:  role /alidata/www/antsclub/Index/Runtime/Cache/e9ca3d00a40c8a0e158f18fe2252bc69.php 第 49 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014505s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014594s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000303s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000307s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000225s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000379s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001426s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000572s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000648s ]
+
+[ 2013-09-14T03:45:14+08:00 ] 110.75.19.6 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000553s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.000674s ]
+SQL: SELECT * FROM `activity` WHERE ( typeCode="badminton" ) ORDER BY createTime desc LIMIT 3   [ RunTime:0.000079s ]
+SQL: SELECT * FROM `activity` WHERE ( typeCode="swimming" ) ORDER BY createTime desc LIMIT 3   [ RunTime:0.000073s ]
+SQL: SELECT * FROM `activity` WHERE ( typeCode="billiards" ) ORDER BY createTime desc LIMIT 3   [ RunTime:0.000074s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  uname /alidata/www/antsclub/Index/Runtime/Cache/e9ca3d00a40c8a0e158f18fe2252bc69.php 第 25 行.
+NOTIC: [8] Undefined index:  role /alidata/www/antsclub/Index/Runtime/Cache/e9ca3d00a40c8a0e158f18fe2252bc69.php 第 49 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014034s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014116s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000305s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000322s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000193s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000384s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001437s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000551s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000627s ]
+
+[ 2013-09-14T04:18:12+08:00 ] 157.55.32.52 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000588s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.000702s ]
+SQL: SELECT * FROM `activity` WHERE ( typeCode="badminton" ) ORDER BY createTime desc LIMIT 3   [ RunTime:0.000081s ]
+SQL: SELECT * FROM `activity` WHERE ( typeCode="swimming" ) ORDER BY createTime desc LIMIT 3   [ RunTime:0.000076s ]
+SQL: SELECT * FROM `activity` WHERE ( typeCode="billiards" ) ORDER BY createTime desc LIMIT 3   [ RunTime:0.000081s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  uname /alidata/www/antsclub/Index/Runtime/Cache/e9ca3d00a40c8a0e158f18fe2252bc69.php 第 25 行.
+NOTIC: [8] Undefined index:  role /alidata/www/antsclub/Index/Runtime/Cache/e9ca3d00a40c8a0e158f18fe2252bc69.php 第 49 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013788s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013870s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000296s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000301s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000212s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000377s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001397s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000557s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000634s ]
+
+[ 2013-09-14T05:14:29+08:00 ] 42.62.56.137 /?action=info
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000636s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.000724s ]
+SQL: SELECT * FROM `activity` WHERE ( typeCode="badminton" ) ORDER BY createTime desc LIMIT 3   [ RunTime:0.000103s ]
+SQL: SELECT * FROM `activity` WHERE ( typeCode="swimming" ) ORDER BY createTime desc LIMIT 3   [ RunTime:0.000075s ]
+SQL: SELECT * FROM `activity` WHERE ( typeCode="billiards" ) ORDER BY createTime desc LIMIT 3   [ RunTime:0.000075s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  uname /alidata/www/antsclub/Index/Runtime/Cache/e9ca3d00a40c8a0e158f18fe2252bc69.php 第 25 行.
+NOTIC: [8] Undefined index:  role /alidata/www/antsclub/Index/Runtime/Cache/e9ca3d00a40c8a0e158f18fe2252bc69.php 第 49 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016386s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016468s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000306s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000320s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000216s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000379s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001433s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000524s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000639s ]
+
+[ 2013-09-14T05:17:21+08:00 ] 121.238.191.185 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000626s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.001009s ]
+SQL: SELECT * FROM `activity` WHERE ( typeCode="badminton" ) ORDER BY createTime desc LIMIT 3   [ RunTime:0.000082s ]
+SQL: SELECT * FROM `activity` WHERE ( typeCode="swimming" ) ORDER BY createTime desc LIMIT 3   [ RunTime:0.000075s ]
+SQL: SELECT * FROM `activity` WHERE ( typeCode="billiards" ) ORDER BY createTime desc LIMIT 3   [ RunTime:0.000075s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014123s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014269s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000383s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000301s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000209s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000374s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001499s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000549s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000625s ]
+
+[ 2013-09-14T05:17:23+08:00 ] 121.238.191.185 /index.php/Activity/view/id/117.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000759s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000862s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000568s ]
+SQL: select a.*,ua.signName,ua.signNum,ua.userName from activity a  left join user_activity ua on a.id=ua.activityId  where a.id="117" order by ua.signTime [ RunTime:0.000084s ]
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 65 行.
+NOTIC: [8] Use of undefined constant typeName - assumed 'typeName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 66 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 67 行.
+NOTIC: [8] Use of undefined constant startTime - assumed 'startTime' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 68 行.
+NOTIC: [8] Use of undefined constant endTime - assumed 'endTime' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 69 行.
+NOTIC: [8] Use of undefined constant address - assumed 'address' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 70 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 71 行.
+NOTIC: [8] Use of undefined constant maxNum - assumed 'maxNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 72 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010917s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010999s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000309s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000318s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000216s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000392s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001442s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000567s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000639s ]
+
+[ 2013-09-14T05:19:46+08:00 ] 121.238.191.185 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000573s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.000760s ]
+SQL: SELECT * FROM `activity` WHERE ( typeCode="badminton" ) ORDER BY createTime desc LIMIT 3   [ RunTime:0.000084s ]
+SQL: SELECT * FROM `activity` WHERE ( typeCode="swimming" ) ORDER BY createTime desc LIMIT 3   [ RunTime:0.000076s ]
+SQL: SELECT * FROM `activity` WHERE ( typeCode="billiards" ) ORDER BY createTime desc LIMIT 3   [ RunTime:0.000078s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014277s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014366s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000332s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000342s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000189s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000450s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001542s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000538s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000648s ]
+
+[ 2013-09-14T05:19:48+08:00 ] 121.238.191.185 /index.php/Activity/view/id/117.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000762s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000866s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000538s ]
+SQL: select a.*,ua.signName,ua.signNum,ua.userName from activity a  left join user_activity ua on a.id=ua.activityId  where a.id="117" order by ua.signTime [ RunTime:0.000087s ]
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 65 行.
+NOTIC: [8] Use of undefined constant typeName - assumed 'typeName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 66 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 67 行.
+NOTIC: [8] Use of undefined constant startTime - assumed 'startTime' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 68 行.
+NOTIC: [8] Use of undefined constant endTime - assumed 'endTime' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 69 行.
+NOTIC: [8] Use of undefined constant address - assumed 'address' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 70 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 71 行.
+NOTIC: [8] Use of undefined constant maxNum - assumed 'maxNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 72 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011475s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011586s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000333s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000333s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000203s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000407s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001491s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000537s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000609s ]
+
+[ 2013-09-14T05:20:02+08:00 ] 121.238.191.185 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000582s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.000773s ]
+SQL: SELECT * FROM `activity` WHERE ( typeCode="badminton" ) ORDER BY createTime desc LIMIT 3   [ RunTime:0.000081s ]
+SQL: SELECT * FROM `activity` WHERE ( typeCode="swimming" ) ORDER BY createTime desc LIMIT 3   [ RunTime:0.000075s ]
+SQL: SELECT * FROM `activity` WHERE ( typeCode="billiards" ) ORDER BY createTime desc LIMIT 3   [ RunTime:0.000075s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013858s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013951s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000297s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000297s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000187s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000392s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001409s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000571s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000648s ]
+
+[ 2013-09-14T05:20:04+08:00 ] 121.238.191.185 /index.php/Activity/view/id/117.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000748s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000852s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000545s ]
+SQL: select a.*,ua.signName,ua.signNum,ua.userName from activity a  left join user_activity ua on a.id=ua.activityId  where a.id="117" order by ua.signTime [ RunTime:0.000087s ]
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 65 行.
+NOTIC: [8] Use of undefined constant typeName - assumed 'typeName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 66 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 67 行.
+NOTIC: [8] Use of undefined constant startTime - assumed 'startTime' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 68 行.
+NOTIC: [8] Use of undefined constant endTime - assumed 'endTime' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 69 行.
+NOTIC: [8] Use of undefined constant address - assumed 'address' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 70 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 71 行.
+NOTIC: [8] Use of undefined constant maxNum - assumed 'maxNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 72 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010913s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010995s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000291s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000325s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000178s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000368s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001370s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000533s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000606s ]
+
+[ 2013-09-14T05:20:05+08:00 ] 121.238.191.185 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000564s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.000722s ]
+SQL: SELECT * FROM `activity` WHERE ( typeCode="badminton" ) ORDER BY createTime desc LIMIT 3   [ RunTime:0.000081s ]
+SQL: SELECT * FROM `activity` WHERE ( typeCode="swimming" ) ORDER BY createTime desc LIMIT 3   [ RunTime:0.000075s ]
+SQL: SELECT * FROM `activity` WHERE ( typeCode="billiards" ) ORDER BY createTime desc LIMIT 3   [ RunTime:0.000076s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013671s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013767s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000320s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000290s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000174s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000392s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001383s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000550s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000630s ]
+
+[ 2013-09-14T05:30:18+08:00 ] 121.238.191.185 /index.php/Activity/more/c/ba.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000769s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000876s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.000767s ]
+SQL: SELECT * FROM `activity` WHERE ( typeCode="badminton" ) ORDER BY createTime desc LIMIT 12   [ RunTime:0.000118s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010563s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010654s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000315s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000308s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000188s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000453s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001474s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000568s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000646s ]
+
+[ 2013-09-14T07:56:23+08:00 ] 49.84.231.89 /index.php/Activity/view/id/117.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000755s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000868s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000535s ]
+SQL: select a.*,ua.signName,ua.signNum,ua.userName from activity a  left join user_activity ua on a.id=ua.activityId  where a.id="117" order by ua.signTime [ RunTime:0.000112s ]
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 65 行.
+NOTIC: [8] Use of undefined constant typeName - assumed 'typeName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 66 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 67 行.
+NOTIC: [8] Use of undefined constant startTime - assumed 'startTime' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 68 行.
+NOTIC: [8] Use of undefined constant endTime - assumed 'endTime' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 69 行.
+NOTIC: [8] Use of undefined constant address - assumed 'address' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 70 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 71 行.
+NOTIC: [8] Use of undefined constant maxNum - assumed 'maxNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 72 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010945s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011044s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000331s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000310s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000221s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000383s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001457s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000559s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000634s ]
+
+[ 2013-09-14T08:09:32+08:00 ] 121.238.191.185 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000667s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.000809s ]
+SQL: SELECT * FROM `activity` WHERE ( typeCode="badminton" ) ORDER BY createTime desc LIMIT 3   [ RunTime:0.000095s ]
+SQL: SELECT * FROM `activity` WHERE ( typeCode="swimming" ) ORDER BY createTime desc LIMIT 3   [ RunTime:0.000077s ]
+SQL: SELECT * FROM `activity` WHERE ( typeCode="billiards" ) ORDER BY createTime desc LIMIT 3   [ RunTime:0.000079s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014855s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014975s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000435s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000319s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000200s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000433s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001607s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000572s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000682s ]
+
+[ 2013-09-14T08:09:35+08:00 ] 121.238.191.185 /index.php/Activity/view/id/117.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000771s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000877s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000544s ]
+SQL: select a.*,ua.signName,ua.signNum,ua.userName from activity a  left join user_activity ua on a.id=ua.activityId  where a.id="117" order by ua.signTime [ RunTime:0.000091s ]
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 65 行.
+NOTIC: [8] Use of undefined constant typeName - assumed 'typeName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 66 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 67 行.
+NOTIC: [8] Use of undefined constant startTime - assumed 'startTime' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 68 行.
+NOTIC: [8] Use of undefined constant endTime - assumed 'endTime' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 69 行.
+NOTIC: [8] Use of undefined constant address - assumed 'address' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 70 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 71 行.
+NOTIC: [8] Use of undefined constant maxNum - assumed 'maxNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 72 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010931s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011059s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000296s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000304s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000177s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000399s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001411s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000529s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000606s ]
+
+[ 2013-09-14T08:09:43+08:00 ] 14.17.34.182 /index.php/Activity/view/id/117.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000779s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000883s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000561s ]
+SQL: select a.*,ua.signName,ua.signNum,ua.userName from activity a  left join user_activity ua on a.id=ua.activityId  where a.id="117" order by ua.signTime [ RunTime:0.000095s ]
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 65 行.
+NOTIC: [8] Use of undefined constant typeName - assumed 'typeName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 66 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 67 行.
+NOTIC: [8] Use of undefined constant startTime - assumed 'startTime' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 68 行.
+NOTIC: [8] Use of undefined constant endTime - assumed 'endTime' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 69 行.
+NOTIC: [8] Use of undefined constant address - assumed 'address' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 70 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 71 行.
+NOTIC: [8] Use of undefined constant maxNum - assumed 'maxNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 72 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  uname /alidata/www/antsclub/Index/Runtime/Cache/ab2fbf02f9e0aad89bd0b627ad1f3bde.php 第 25 行.
+NOTIC: [8] Undefined index:  role /alidata/www/antsclub/Index/Runtime/Cache/ab2fbf02f9e0aad89bd0b627ad1f3bde.php 第 49 行.
+NOTIC: [8] Undefined index:  role /alidata/www/antsclub/Index/Runtime/Cache/ab2fbf02f9e0aad89bd0b627ad1f3bde.php 第 68 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011337s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011416s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000305s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000319s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000191s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000383s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001456s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000559s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000632s ]
+
+[ 2013-09-14T08:10:04+08:00 ] 58.209.49.53 /index.php/Activity/view/id/117.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000721s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000826s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000539s ]
+SQL: select a.*,ua.signName,ua.signNum,ua.userName from activity a  left join user_activity ua on a.id=ua.activityId  where a.id="117" order by ua.signTime [ RunTime:0.000099s ]
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 65 行.
+NOTIC: [8] Use of undefined constant typeName - assumed 'typeName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 66 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 67 行.
+NOTIC: [8] Use of undefined constant startTime - assumed 'startTime' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 68 行.
+NOTIC: [8] Use of undefined constant endTime - assumed 'endTime' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 69 行.
+NOTIC: [8] Use of undefined constant address - assumed 'address' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 70 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 71 行.
+NOTIC: [8] Use of undefined constant maxNum - assumed 'maxNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 72 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  uname /alidata/www/antsclub/Index/Runtime/Cache/ab2fbf02f9e0aad89bd0b627ad1f3bde.php 第 25 行.
+NOTIC: [8] Undefined index:  role /alidata/www/antsclub/Index/Runtime/Cache/ab2fbf02f9e0aad89bd0b627ad1f3bde.php 第 49 行.
+NOTIC: [8] Undefined index:  role /alidata/www/antsclub/Index/Runtime/Cache/ab2fbf02f9e0aad89bd0b627ad1f3bde.php 第 68 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011050s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011137s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000309s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000334s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000197s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000376s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001424s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000545s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000621s ]
+
+[ 2013-09-14T08:10:05+08:00 ] 69.58.178.58 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000636s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.000868s ]
+SQL: SELECT * FROM `activity` WHERE ( typeCode="badminton" ) ORDER BY createTime desc LIMIT 3   [ RunTime:0.000103s ]
+SQL: SELECT * FROM `activity` WHERE ( typeCode="swimming" ) ORDER BY createTime desc LIMIT 3   [ RunTime:0.000084s ]
+SQL: SELECT * FROM `activity` WHERE ( typeCode="billiards" ) ORDER BY createTime desc LIMIT 3   [ RunTime:0.000074s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  uname /alidata/www/antsclub/Index/Runtime/Cache/e9ca3d00a40c8a0e158f18fe2252bc69.php 第 25 行.
+NOTIC: [8] Undefined index:  role /alidata/www/antsclub/Index/Runtime/Cache/e9ca3d00a40c8a0e158f18fe2252bc69.php 第 49 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014107s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014189s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000309s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000307s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000212s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000391s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001436s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000566s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000644s ]
+
+[ 2013-09-14T08:10:06+08:00 ] 69.58.178.58 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000610s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.000742s ]
+SQL: SELECT * FROM `activity` WHERE ( typeCode="badminton" ) ORDER BY createTime desc LIMIT 3   [ RunTime:0.000087s ]
+SQL: SELECT * FROM `activity` WHERE ( typeCode="swimming" ) ORDER BY createTime desc LIMIT 3   [ RunTime:0.000081s ]
+SQL: SELECT * FROM `activity` WHERE ( typeCode="billiards" ) ORDER BY createTime desc LIMIT 3   [ RunTime:0.000082s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  uname /alidata/www/antsclub/Index/Runtime/Cache/e9ca3d00a40c8a0e158f18fe2252bc69.php 第 25 行.
+NOTIC: [8] Undefined index:  role /alidata/www/antsclub/Index/Runtime/Cache/e9ca3d00a40c8a0e158f18fe2252bc69.php 第 49 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014277s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014385s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000324s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000308s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000249s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000406s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001529s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000566s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000661s ]
+
+[ 2013-09-14T08:10:09+08:00 ] 69.58.178.58 /index.php/Login/login.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000767s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000894s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000586s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  uname /alidata/www/antsclub/Index/Runtime/Cache/e5c7baedfdc4a8ba0a3244994ba009b3.php 第 24 行.
+NOTIC: [8] Undefined index:  role /alidata/www/antsclub/Index/Runtime/Cache/e5c7baedfdc4a8ba0a3244994ba009b3.php 第 48 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009042s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009125s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000305s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000333s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000202s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000389s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001449s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000589s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000664s ]
+
+[ 2013-09-14T08:10:11+08:00 ] 69.58.178.58 /index.php/Login/register.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000746s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000850s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000554s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  uname /alidata/www/antsclub/Index/Runtime/Cache/084592a7684ff235479386cb47a25df3.php 第 25 行.
+NOTIC: [8] Undefined index:  role /alidata/www/antsclub/Index/Runtime/Cache/084592a7684ff235479386cb47a25df3.php 第 49 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009791s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009899s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000370s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000332s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000219s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000406s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001546s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000596s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000694s ]
+
+[ 2013-09-14T08:10:12+08:00 ] 69.58.178.58 /index.php/Index/wait.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000845s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000963s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000579s ]
+
+[ 2013-09-14T08:10:13+08:00 ] 69.58.178.58 /index.php/Activity/more/c/ba.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000762s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000866s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000568s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.000706s ]
+SQL: SELECT * FROM `activity` WHERE ( typeCode="badminton" ) ORDER BY createTime desc LIMIT 12   [ RunTime:0.000097s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  uname /alidata/www/antsclub/Index/Runtime/Cache/5e78ec5ea9688124a5a9cdff9d1ea70d.php 第 25 行.
+NOTIC: [8] Undefined index:  role /alidata/www/antsclub/Index/Runtime/Cache/5e78ec5ea9688124a5a9cdff9d1ea70d.php 第 49 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010700s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010779s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000299s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000314s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000198s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000381s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001401s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000545s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000622s ]
+
+[ 2013-09-14T08:10:14+08:00 ] 69.58.178.58 /index.php/Activity/view/id/117.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000778s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000884s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000575s ]
+SQL: select a.*,ua.signName,ua.signNum,ua.userName from activity a  left join user_activity ua on a.id=ua.activityId  where a.id="117" order by ua.signTime [ RunTime:0.000090s ]
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 65 行.
+NOTIC: [8] Use of undefined constant typeName - assumed 'typeName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 66 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 67 行.
+NOTIC: [8] Use of undefined constant startTime - assumed 'startTime' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 68 行.
+NOTIC: [8] Use of undefined constant endTime - assumed 'endTime' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 69 行.
+NOTIC: [8] Use of undefined constant address - assumed 'address' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 70 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 71 行.
+NOTIC: [8] Use of undefined constant maxNum - assumed 'maxNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 72 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  uname /alidata/www/antsclub/Index/Runtime/Cache/ab2fbf02f9e0aad89bd0b627ad1f3bde.php 第 25 行.
+NOTIC: [8] Undefined index:  role /alidata/www/antsclub/Index/Runtime/Cache/ab2fbf02f9e0aad89bd0b627ad1f3bde.php 第 49 行.
+NOTIC: [8] Undefined index:  role /alidata/www/antsclub/Index/Runtime/Cache/ab2fbf02f9e0aad89bd0b627ad1f3bde.php 第 68 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011379s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011462s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000330s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000329s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000192s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000427s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001494s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000558s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000632s ]
+
+[ 2013-09-14T08:10:16+08:00 ] 69.58.178.58 /index.php/Activity/view/id/116.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000750s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000858s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000570s ]
+SQL: select a.*,ua.signName,ua.signNum,ua.userName from activity a  left join user_activity ua on a.id=ua.activityId  where a.id="116" order by ua.signTime [ RunTime:0.000088s ]
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 65 行.
+NOTIC: [8] Use of undefined constant typeName - assumed 'typeName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 66 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 67 行.
+NOTIC: [8] Use of undefined constant startTime - assumed 'startTime' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 68 行.
+NOTIC: [8] Use of undefined constant endTime - assumed 'endTime' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 69 行.
+NOTIC: [8] Use of undefined constant address - assumed 'address' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 70 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 71 行.
+NOTIC: [8] Use of undefined constant maxNum - assumed 'maxNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 72 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  uname /alidata/www/antsclub/Index/Runtime/Cache/ab2fbf02f9e0aad89bd0b627ad1f3bde.php 第 25 行.
+NOTIC: [8] Undefined index:  role /alidata/www/antsclub/Index/Runtime/Cache/ab2fbf02f9e0aad89bd0b627ad1f3bde.php 第 49 行.
+NOTIC: [8] Undefined index:  role /alidata/www/antsclub/Index/Runtime/Cache/ab2fbf02f9e0aad89bd0b627ad1f3bde.php 第 68 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011124s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011208s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000334s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000333s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000191s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000399s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001473s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000521s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000596s ]
+
+[ 2013-09-14T08:10:17+08:00 ] 69.58.178.58 /index.php/Activity/view/id/114.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000753s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000861s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000558s ]
+SQL: select a.*,ua.signName,ua.signNum,ua.userName from activity a  left join user_activity ua on a.id=ua.activityId  where a.id="114" order by ua.signTime [ RunTime:0.000091s ]
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 65 行.
+NOTIC: [8] Use of undefined constant typeName - assumed 'typeName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 66 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 67 行.
+NOTIC: [8] Use of undefined constant startTime - assumed 'startTime' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 68 行.
+NOTIC: [8] Use of undefined constant endTime - assumed 'endTime' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 69 行.
+NOTIC: [8] Use of undefined constant address - assumed 'address' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 70 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 71 行.
+NOTIC: [8] Use of undefined constant maxNum - assumed 'maxNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 72 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  uname /alidata/www/antsclub/Index/Runtime/Cache/ab2fbf02f9e0aad89bd0b627ad1f3bde.php 第 25 行.
+NOTIC: [8] Undefined index:  role /alidata/www/antsclub/Index/Runtime/Cache/ab2fbf02f9e0aad89bd0b627ad1f3bde.php 第 49 行.
+NOTIC: [8] Undefined index:  role /alidata/www/antsclub/Index/Runtime/Cache/ab2fbf02f9e0aad89bd0b627ad1f3bde.php 第 68 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010921s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011006s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000312s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000319s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000189s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000504s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001565s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000536s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000610s ]
+
+[ 2013-09-14T08:10:18+08:00 ] 69.58.178.58 /index.php/Activity/more/c/sw.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000752s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000859s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000798s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.000777s ]
+SQL: SELECT * FROM `activity` WHERE ( typeCode="swimming" ) ORDER BY createTime desc LIMIT 12   [ RunTime:0.000090s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  uname /alidata/www/antsclub/Index/Runtime/Cache/5e78ec5ea9688124a5a9cdff9d1ea70d.php 第 25 行.
+NOTIC: [8] Undefined index:  role /alidata/www/antsclub/Index/Runtime/Cache/5e78ec5ea9688124a5a9cdff9d1ea70d.php 第 49 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011069s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011155s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000333s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000296s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000205s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000417s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001475s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000573s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000651s ]
+
+[ 2013-09-14T08:10:20+08:00 ] 69.58.178.58 /index.php/Activity/view/id/115.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000739s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000843s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000558s ]
+SQL: select a.*,ua.signName,ua.signNum,ua.userName from activity a  left join user_activity ua on a.id=ua.activityId  where a.id="115" order by ua.signTime [ RunTime:0.000090s ]
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 65 行.
+NOTIC: [8] Use of undefined constant typeName - assumed 'typeName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 66 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 67 行.
+NOTIC: [8] Use of undefined constant startTime - assumed 'startTime' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 68 行.
+NOTIC: [8] Use of undefined constant endTime - assumed 'endTime' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 69 行.
+NOTIC: [8] Use of undefined constant address - assumed 'address' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 70 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 71 行.
+NOTIC: [8] Use of undefined constant maxNum - assumed 'maxNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 72 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  uname /alidata/www/antsclub/Index/Runtime/Cache/ab2fbf02f9e0aad89bd0b627ad1f3bde.php 第 25 行.
+NOTIC: [8] Undefined index:  role /alidata/www/antsclub/Index/Runtime/Cache/ab2fbf02f9e0aad89bd0b627ad1f3bde.php 第 49 行.
+NOTIC: [8] Undefined index:  role /alidata/www/antsclub/Index/Runtime/Cache/ab2fbf02f9e0aad89bd0b627ad1f3bde.php 第 68 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017544s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017622s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000315s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000293s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000212s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000383s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001413s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000619s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000692s ]
+
+[ 2013-09-14T08:12:22+08:00 ] 119.147.146.118 /index.php/activity/view/id/117.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000775s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000904s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000561s ]
+ERR: 无法加载模块:activity
+
+[ 2013-09-14T08:12:25+08:00 ] 58.209.49.53 /index.php/Activity/view/id/117.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000749s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000855s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000555s ]
+SQL: select a.*,ua.signName,ua.signNum,ua.userName from activity a  left join user_activity ua on a.id=ua.activityId  where a.id="117" order by ua.signTime [ RunTime:0.000086s ]
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 65 行.
+NOTIC: [8] Use of undefined constant typeName - assumed 'typeName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 66 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 67 行.
+NOTIC: [8] Use of undefined constant startTime - assumed 'startTime' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 68 行.
+NOTIC: [8] Use of undefined constant endTime - assumed 'endTime' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 69 行.
+NOTIC: [8] Use of undefined constant address - assumed 'address' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 70 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 71 行.
+NOTIC: [8] Use of undefined constant maxNum - assumed 'maxNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 72 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  uname /alidata/www/antsclub/Index/Runtime/Cache/ab2fbf02f9e0aad89bd0b627ad1f3bde.php 第 25 行.
+NOTIC: [8] Undefined index:  role /alidata/www/antsclub/Index/Runtime/Cache/ab2fbf02f9e0aad89bd0b627ad1f3bde.php 第 49 行.
+NOTIC: [8] Undefined index:  role /alidata/www/antsclub/Index/Runtime/Cache/ab2fbf02f9e0aad89bd0b627ad1f3bde.php 第 68 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010973s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011052s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000325s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000301s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000194s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000404s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001433s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000515s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000587s ]
+
+[ 2013-09-14T08:12:30+08:00 ] 14.17.34.182 /index.php/Login/login.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000745s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000849s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000554s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  uname /alidata/www/antsclub/Index/Runtime/Cache/e5c7baedfdc4a8ba0a3244994ba009b3.php 第 24 行.
+NOTIC: [8] Undefined index:  role /alidata/www/antsclub/Index/Runtime/Cache/e5c7baedfdc4a8ba0a3244994ba009b3.php 第 48 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008936s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009014s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000302s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000312s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000214s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000386s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001421s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000554s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000628s ]
+
+[ 2013-09-14T08:12:31+08:00 ] 58.209.49.53 /index.php/Login/login.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000773s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000875s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000566s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  uname /alidata/www/antsclub/Index/Runtime/Cache/e5c7baedfdc4a8ba0a3244994ba009b3.php 第 24 行.
+NOTIC: [8] Undefined index:  role /alidata/www/antsclub/Index/Runtime/Cache/e5c7baedfdc4a8ba0a3244994ba009b3.php 第 48 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008850s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008927s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000301s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000337s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000201s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000380s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001423s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000541s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000614s ]
+
+[ 2013-09-14T08:13:14+08:00 ] 58.209.49.53 /index.php/Login/runLogin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000757s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000863s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000531s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000660s ]
+SQL: SELECT * FROM `user` WHERE ( `uname` = '迷路的Ant' ) AND ( `pwd` = '820939eb9ef8b7aaff1a1a6bd37e66b2' ) LIMIT 1   [ RunTime:0.000242s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' /alidata/www/antsclub/Index/Lib/Action/LoginAction.class.php 第 29 行.
+NOTIC: [8] Use of undefined constant role - assumed 'role' /alidata/www/antsclub/Index/Lib/Action/LoginAction.class.php 第 30 行.
+NOTIC: [8] Use of undefined constant nickname - assumed 'nickname' /alidata/www/antsclub/Index/Lib/Action/LoginAction.class.php 第 31 行.
+
+[ 2013-09-14T08:13:15+08:00 ] 58.209.49.53 /index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000569s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.000728s ]
+SQL: SELECT * FROM `activity` WHERE ( typeCode="badminton" ) ORDER BY createTime desc LIMIT 3   [ RunTime:0.000083s ]
+SQL: SELECT * FROM `activity` WHERE ( typeCode="swimming" ) ORDER BY createTime desc LIMIT 3   [ RunTime:0.000075s ]
+SQL: SELECT * FROM `activity` WHERE ( typeCode="billiards" ) ORDER BY createTime desc LIMIT 3   [ RunTime:0.000077s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013933s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014018s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000300s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000316s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000187s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000378s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001418s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000562s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000650s ]
+
+[ 2013-09-14T08:13:35+08:00 ] 58.209.49.53 /index.php/Activity/view/id/117.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000756s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000868s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000555s ]
+SQL: select a.*,ua.signName,ua.signNum,ua.userName from activity a  left join user_activity ua on a.id=ua.activityId  where a.id="117" order by ua.signTime [ RunTime:0.000093s ]
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 65 行.
+NOTIC: [8] Use of undefined constant typeName - assumed 'typeName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 66 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 67 行.
+NOTIC: [8] Use of undefined constant startTime - assumed 'startTime' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 68 行.
+NOTIC: [8] Use of undefined constant endTime - assumed 'endTime' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 69 行.
+NOTIC: [8] Use of undefined constant address - assumed 'address' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 70 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 71 行.
+NOTIC: [8] Use of undefined constant maxNum - assumed 'maxNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 72 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011245s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011337s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000390s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000338s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000201s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000444s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001585s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000582s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000662s ]
+
+[ 2013-09-14T08:13:40+08:00 ] 58.209.49.53 /index.php/Activity/sign.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000735s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000841s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000544s ]
+SQL: SHOW COLUMNS FROM `user_activity` [ RunTime:0.000722s ]
+SQL: SELECT * FROM `user_activity` WHERE ( `activityId` = 117 ) AND ( `userId` = '120' ) LIMIT 1   [ RunTime:0.000303s ]
+SQL: INSERT INTO `user_activity` (`activityId`,`userId`,`userName`,`signName`,`signNum`,`signTime`) VALUES (117,'120','迷路的Ant','迷路的Ant',1,'2013-09-14 08:13:40') [ RunTime:0.000291s ]
+
+[ 2013-09-14T08:14:42+08:00 ] 58.209.49.53 /index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000571s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.000722s ]
+SQL: SELECT * FROM `activity` WHERE ( typeCode="badminton" ) ORDER BY createTime desc LIMIT 3   [ RunTime:0.000081s ]
+SQL: SELECT * FROM `activity` WHERE ( typeCode="swimming" ) ORDER BY createTime desc LIMIT 3   [ RunTime:0.000075s ]
+SQL: SELECT * FROM `activity` WHERE ( typeCode="billiards" ) ORDER BY createTime desc LIMIT 3   [ RunTime:0.000076s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  uname /alidata/www/antsclub/Index/Runtime/Cache/e9ca3d00a40c8a0e158f18fe2252bc69.php 第 25 行.
+NOTIC: [8] Undefined index:  role /alidata/www/antsclub/Index/Runtime/Cache/e9ca3d00a40c8a0e158f18fe2252bc69.php 第 49 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016552s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016633s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000310s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000307s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000190s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000410s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001450s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000534s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000610s ]
+
+[ 2013-09-14T08:15:02+08:00 ] 58.209.49.53 /index.php/Index/wait.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000736s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000839s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000548s ]
+
+[ 2013-09-14T08:15:05+08:00 ] 58.209.49.53 /index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000569s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.000747s ]
+SQL: SELECT * FROM `activity` WHERE ( typeCode="badminton" ) ORDER BY createTime desc LIMIT 3   [ RunTime:0.000084s ]
+SQL: SELECT * FROM `activity` WHERE ( typeCode="swimming" ) ORDER BY createTime desc LIMIT 3   [ RunTime:0.000073s ]
+SQL: SELECT * FROM `activity` WHERE ( typeCode="billiards" ) ORDER BY createTime desc LIMIT 3   [ RunTime:0.000097s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  uname /alidata/www/antsclub/Index/Runtime/Cache/e9ca3d00a40c8a0e158f18fe2252bc69.php 第 25 行.
+NOTIC: [8] Undefined index:  role /alidata/www/antsclub/Index/Runtime/Cache/e9ca3d00a40c8a0e158f18fe2252bc69.php 第 49 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014841s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014928s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000325s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000325s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000190s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000377s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001452s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000541s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000631s ]
+
+[ 2013-09-14T08:15:11+08:00 ] 58.209.49.53 /index.php/Index/wait.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000714s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000844s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000536s ]
+
+[ 2013-09-14T08:15:13+08:00 ] 58.209.49.53 /index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000586s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.000750s ]
+SQL: SELECT * FROM `activity` WHERE ( typeCode="badminton" ) ORDER BY createTime desc LIMIT 3   [ RunTime:0.000081s ]
+SQL: SELECT * FROM `activity` WHERE ( typeCode="swimming" ) ORDER BY createTime desc LIMIT 3   [ RunTime:0.000073s ]
+SQL: SELECT * FROM `activity` WHERE ( typeCode="billiards" ) ORDER BY createTime desc LIMIT 3   [ RunTime:0.000074s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  uname /alidata/www/antsclub/Index/Runtime/Cache/e9ca3d00a40c8a0e158f18fe2252bc69.php 第 25 行.
+NOTIC: [8] Undefined index:  role /alidata/www/antsclub/Index/Runtime/Cache/e9ca3d00a40c8a0e158f18fe2252bc69.php 第 49 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014747s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000357s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000333s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000223s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000421s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001558s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000592s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000668s ]
+
+[ 2013-09-14T08:15:17+08:00 ] 119.147.146.118 /index.php/login/login.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000774s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000878s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000578s ]
+ERR: 无法加载模块:login
+
+[ 2013-09-14T08:15:19+08:00 ] 58.209.49.53 /index.php/Index/wait.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000752s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000857s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000551s ]
+
+[ 2013-09-14T08:15:21+08:00 ] 58.209.49.53 /index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000610s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.000781s ]
+SQL: SELECT * FROM `activity` WHERE ( typeCode="badminton" ) ORDER BY createTime desc LIMIT 3   [ RunTime:0.000082s ]
+SQL: SELECT * FROM `activity` WHERE ( typeCode="swimming" ) ORDER BY createTime desc LIMIT 3   [ RunTime:0.000080s ]
+SQL: SELECT * FROM `activity` WHERE ( typeCode="billiards" ) ORDER BY createTime desc LIMIT 3   [ RunTime:0.000077s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  uname /alidata/www/antsclub/Index/Runtime/Cache/e9ca3d00a40c8a0e158f18fe2252bc69.php 第 25 行.
+NOTIC: [8] Undefined index:  role /alidata/www/antsclub/Index/Runtime/Cache/e9ca3d00a40c8a0e158f18fe2252bc69.php 第 49 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013949s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014030s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000334s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000310s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000187s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000415s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001463s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000513s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000629s ]
+
+[ 2013-09-14T08:15:28+08:00 ] 58.209.49.53 /index.php/Login/login.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000808s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000925s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000575s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index:  uname /alidata/www/antsclub/Index/Runtime/Cache/e5c7baedfdc4a8ba0a3244994ba009b3.php 第 24 行.
+NOTIC: [8] Undefined index:  role /alidata/www/antsclub/Index/Runtime/Cache/e5c7baedfdc4a8ba0a3244994ba009b3.php 第 48 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.008974s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009060s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000313s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000340s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000196s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000383s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001452s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000557s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000631s ]
+
+[ 2013-09-14T08:16:14+08:00 ] 58.209.49.53 /index.php/Login/runLogin.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000774s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000883s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000559s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.000692s ]
+SQL: SELECT * FROM `user` WHERE ( `uname` = '迷路的Ant' ) AND ( `pwd` = '820939eb9ef8b7aaff1a1a6bd37e66b2' ) LIMIT 1   [ RunTime:0.000080s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' /alidata/www/antsclub/Index/Lib/Action/LoginAction.class.php 第 29 行.
+NOTIC: [8] Use of undefined constant role - assumed 'role' /alidata/www/antsclub/Index/Lib/Action/LoginAction.class.php 第 30 行.
+NOTIC: [8] Use of undefined constant nickname - assumed 'nickname' /alidata/www/antsclub/Index/Lib/Action/LoginAction.class.php 第 31 行.
+
+[ 2013-09-14T08:16:14+08:00 ] 121.238.191.185 /index.php/Activity/view/id/117.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000778s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000881s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000551s ]
+SQL: select a.*,ua.signName,ua.signNum,ua.userName from activity a  left join user_activity ua on a.id=ua.activityId  where a.id="117" order by ua.signTime [ RunTime:0.000652s ]
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant signName - assumed 'signName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 58 行.
+NOTIC: [8] Use of undefined constant signNum - assumed 'signNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 59 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 65 行.
+NOTIC: [8] Use of undefined constant typeName - assumed 'typeName' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 66 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 67 行.
+NOTIC: [8] Use of undefined constant startTime - assumed 'startTime' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 68 行.
+NOTIC: [8] Use of undefined constant endTime - assumed 'endTime' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 69 行.
+NOTIC: [8] Use of undefined constant address - assumed 'address' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 70 行.
+NOTIC: [8] Use of undefined constant detail - assumed 'detail' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 71 行.
+NOTIC: [8] Use of undefined constant maxNum - assumed 'maxNum' /alidata/www/antsclub/Index/Lib/Action/ActivityAction.class.php 第 72 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011266s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011352s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000319s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000319s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000215s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000390s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001458s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000583s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000664s ]
+
+[ 2013-09-14T08:16:15+08:00 ] 58.209.49.53 /index.php
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000562s ]
+SQL: SHOW COLUMNS FROM `activity` [ RunTime:0.000755s ]
+SQL: SELECT * FROM `activity` WHERE ( typeCode="badminton" ) ORDER BY createTime desc LIMIT 3   [ RunTime:0.000084s ]
+SQL: SELECT * FROM `activity` WHERE ( typeCode="swimming" ) ORDER BY createTime desc LIMIT 3   [ RunTime:0.000098s ]
+SQL: SELECT * FROM `activity` WHERE ( typeCode="billiards" ) ORDER BY createTime desc LIMIT 3   [ RunTime:0.000077s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013969s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014068s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000348s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000303s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000194s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000414s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001471s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000559s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000637s ]
+

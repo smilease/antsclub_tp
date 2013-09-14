@@ -1,0 +1,141 @@
+﻿<include file='Common:header'/>
+<title>Antsclub</title>
+</head>
+<body>
+<include file='Common:nav'/>
+<div id="wrapper">
+		<div id="content">
+			<div id="left">
+				<div class="info">
+					<div class="hd">
+						<h2>活动详情
+							<span class="more" id="span_signNum">
+								已报名：{$activity.totalNum}人
+								<?php if($_SESSION['role'] == '3'): ?>
+									<a href="{:U('Activity/edit',array('id'=>$activity['id']))}">编辑活动</a>
+								<?php endif; ?>
+							</span>	
+						</h2>
+					</div>
+					<form id='form_act' action="/activity/save" method="post">
+						<div class="row">
+							<label class="field">活动分类
+							</label>
+							<label class="field_content">
+								{$activity.typeName}
+							</label>
+						</div>
+						<div class="row">
+							<label class="field">活动标题
+							</label>
+							<label class="field_content">
+								{$activity.title}
+							</label>
+						</div>
+						      
+						<div class="row">
+							<label class="field">活动地点
+							</label>
+							<label class="field_content">
+								{$activity.address}
+							</label>
+						</div>
+						<div class="row">
+							<label class="field">开始时间
+							</label>
+							<label class="field_content">
+								{$activity.startTime}
+							</label>
+						</div>
+						<div class="row">
+							<label class="field">结束时间
+							</label>
+							<label class="field_content">
+								{$activity.endTime}
+							</label>
+						</div>
+						<div class="row">
+							<label class="field">限制人数
+							</label>
+							<label class="field_content">
+								{$activity.maxNum}
+							</label>
+						</div>
+						<div class="row">
+							<label class="field">活动详情
+							</label>
+							<label class="field_content">
+								{$activity.detail}
+							</label>
+						</div>
+						<hr class="hrline"/>
+						<div class="row">
+							<label class="field">报名人员
+							</label>
+							<label class="field_content" id="signUsers">
+								{$activity.signUsers}</br>
+								共&nbsp;{$activity.totalNum}&nbsp;人
+							</label>
+						</div>
+						<div class="row footer">
+							<div class="item">
+								<input class="loc-btn" type="button" id="btn_sign" value="报名"/>
+								<input class="loc-btn" type="button" id="btn_signMore" value="带人报名"/>
+								<input class="lnk-flat" type="button" id="btn_undo" value="取消报名"/>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div id="right">
+				<div class="active_info">
+					<div class="hd">
+						<h2>报名说明
+						</h2>
+					</div>
+					<ul>
+						<li class="info_l active">
+							<div class="title_l">1、登陆用户才能报名</div>
+							<div class="title_l">2、如果只给自己报名，点击报名按钮即可</div>
+							<div class="title_l">3、点击取消报名会取消自己所有的报名，包括代报名的人</div>
+							<div class="title_l">4、点击带人报名，可以给自己和他人一起报名，请在弹出框中输入报名的称呼和人数</div>
+							<div class="title_l">5、如果需要修改报名信息，可以再点击带人报名，在弹出框中输入新的报名称呼和人数，新的报名信息会覆盖旧信息</div>
+						</li>	
+					</ul>
+				</div>	
+			</div>
+			<div id="dlg_wrapper" style="display:none">
+				<div id="dlg" class="easyui-dialog" title="带人报名" 
+					 data-options="iconCls:'icon-save',closed: true" style="width:300px;height:200px;padding:10px;">
+					<form action="" method="post">
+						<label for="user" class="field">报名称呼:</label>
+						<input type="text" id='signName' value="" /><br />
+						<label for="signNum">报名人数:</label>
+						连我在内有<input type="text" id="signNum" value="2" style="width: 56px"/>人参加<br />
+						<hr class="hrline"/>
+						<div class="row footer">
+							<div class="item">
+								<input class="loc-btn" type="button" id="dlg_btn_signMore" value="带人报名"/>
+								<input class="lnk-flat" type="button" id="dlg_btn_undo" value="返回"/>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<include file='Common:inc_js'/>
+	<script type="text/javascript">
+		var signUrl='{:U('sign')}';
+		var signMoreUrl='{:U('signMore')}';
+		var undoUrl='{:U('undo')}';
+		var uid='{$Think.session.uid}';
+		var uname='{$Think.session.uname}';
+		var actId='{$activity.id}';
+		var totalSignNum={$activity.totalNum};
+		var signUsers='{$activity.signUsers}';
+		var maxNum='{$activity.maxNum}';
+	</script>
+	<script type="text/javascript" src='__PUBLIC__/Js/act_view.js'></script>
+</body>
+</html>
