@@ -74,7 +74,12 @@
 			    $id = $User->add();
 		        if($id) {
 		            session('uid',$id);
-		            session('uname', $uname);
+		            if($nickname!=null&&$nickname!=''){
+		            	session('uname', $nickname);
+		            }else{
+		            	session('uname', $uname);
+		            }
+		            
 		            //跳转至首页
 		            myRedirect(__APP__, 2,'注册成功，正在为您跳转...');
 		        }else{
