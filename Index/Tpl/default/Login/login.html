@@ -36,6 +36,7 @@
 							<div class="item">
 								<input class="loc-btn" type="button" id="submit_form" value="提交"/>
 								<input class="lnk-flat" type="button" id="cancel_form" value="取消"/>
+								<input class="loc-btn" type="button" id="go_register" value="没有账号？点我注册吧"/>
 							</div>
 						</div>
 					</form>
@@ -62,6 +63,10 @@
 	<div id="footer">
 	</div>
 	<include file='Common:inc_js'/>
+	<script type="text/javascript">
+	var registUrl='{:U('Login/register')}';
+	var cancleUrl='{:U('Index/index')}';
+	</script>
 	<script type="text/javascript" src="__PUBLIC__/Js/jquery-validate.js"></script>
 	<script type="text/javascript" src="__PUBLIC__/Js/login.js"></script>
 </body>

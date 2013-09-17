@@ -29,5 +29,11 @@ $(function () {
 	    if(ev.keyCode==13) {
 	    	$('#form_login').submit();
 	     }
-	}
+	};
+	$('#go_register').click(function(){
+		window.location.href = registUrl;
+	});
+	$('#cancel_form').click(function(){
+		window.location.href = cancleUrl;
+	});
 });

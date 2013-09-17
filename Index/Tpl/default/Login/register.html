@@ -46,6 +46,7 @@
 							<div class="item">
 								<input class="loc-btn" type="button" id="submit_form" value="提交"/>
 								<input class="lnk-flat" type="button" id="cancel_form" value="取消"/>
+								<input class="loc-btn" type="button" id="go_login" value="已有账号？点我登录吧"/>
 							</div>
 						</div>
 					</form>
@@ -75,6 +76,9 @@
 		var checkUname = "{:U('checkUnique','cName=uname')}";
 		var checkEmail = "{:U('checkUnique','cName=email')}";
 		var checkNickname = "{:U('checkUnique','cName=nickname')}";
+
+		var loginUrl='{:U('Login/login')}';
+		var cancleUrl='{:U('Index/index')}';
 	</script>
 	<include file='Common:inc_js'/>
 	<script type="text/javascript" src="__PUBLIC__/Js/jquery-validate.js"></script>

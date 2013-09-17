@@ -65,6 +65,15 @@ $(function () {
 	$('#submit_form').click(function(){
 		$('#form_act').submit();
 	});
+
+	$('#go_login').click(function(){
+		window.location.href = loginUrl;
+	});
+
+	$('#cancel_form').click(function(){
+		window.location.href = cancleUrl;
+	});
+
 	document.onkeydown = function(e){ 
 	    var ev = document.all ? window.event : e;
 	    if(ev.keyCode==13) {
