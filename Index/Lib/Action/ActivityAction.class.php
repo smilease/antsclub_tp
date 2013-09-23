@@ -24,6 +24,9 @@
 						$msg='活动更新失败，正在为您跳转到首页';
 					}
 				}else{
+					if($m->maxNum==''){
+						$m->maxNum=null;
+					}
 					if($m->add()){
 						$msg='活动发布成功，正在为您跳转到首页';
 					}else{
