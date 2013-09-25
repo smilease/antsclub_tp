@@ -17,9 +17,9 @@
 				<img alt='有共同爱好的人在一起' src='__PUBLIC__/Images/logo_top.jpg'>
 			</a>
 			<div id='nav' class='left'>
-				<a href='<?php echo U('Index/wait');?>'>羽毛球</a>
-				<a href='<?php echo U('Index/wait');?>'>桌球</a>
-				<a href='<?php echo U('Index/wait');?>'>英语</a>
+				<a href='/wait.jsp'>羽毛球</a>
+				<a href='/wait.jsp'>桌球</a>
+				<a href='/wait.jsp'>英语</a>
 			</div>
 			<div id='login' class='right'>
 				<?php if ($_SESSION['uname']) : ?>
@@ -100,7 +100,6 @@
 							<div class="item">
 								<input class="loc-btn" type="button" id="submit_form" value="提交"/>
 								<input class="lnk-flat" type="button" id="cancel_form" value="取消"/>
-								<input class="loc-btn" type="button" id="go_login" value="已有账号？点我登录吧"/>
 							</div>
 						</div>
 					</form>
@@ -130,9 +129,6 @@
 		var checkUname = "<?php echo U('checkUnique','cName=uname');?>";
 		var checkEmail = "<?php echo U('checkUnique','cName=email');?>";
 		var checkNickname = "<?php echo U('checkUnique','cName=nickname');?>";
-
-		var loginUrl='<?php echo U('Login/login');?>';
-		var cancleUrl='<?php echo U('Index/index');?>';
 	</script>
 	<script src="__PUBLIC__/Js/jquery-1.8.0.min.js" type="text/javascript" ></script>
 <script type="text/javascript" src="__PUBLIC__/Js/easyui132/jquery.easyui.min.js"></script>
