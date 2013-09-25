@@ -7,7 +7,7 @@
 	<link rel="stylesheet" type="text/css" href="__PUBLIC__/Js/easyui132/themes/default/easyui.css">
 	<link rel="stylesheet" type="text/css" href="__PUBLIC__/Js/easyui132/themes/icon.css">
 
-<title>test include</title>
+<title>Antsclub</title>
 </head>
 <body>
 <div id='header'>
@@ -57,42 +57,72 @@
 
 
 
-	<div id="wrapper">
+<div id="wrapper">
 		<div id="content">
 			<div id="left">
 				<div class="info">
 					<div class="hd">
-						<h2>用户注册
+						<h2><?php echo ($pageTitle); ?>
 						</h2>
 					</div>
-					<form id='form_act' action="<?php echo U('runRegis');?>" method="post">
+					<form id='form_act' action="<?php echo U('saveOrUpdate');?>" method="post">
+						<input type="hidden" id="id" name="id" value="<?php echo ($activity["id"]); ?>"/> 
 						<div class="row">
-							<label class="field">登录名
+							<label class="field">活动分类
 							</label>
 							<div class="item">
-								<input id="uname" class="basic-input" data-options="required:true" name="uname" maxlength="70" size="46"/><span style="color:red">*</span>
+								<select id="type" class="basic-input" name="typeCode">
+									<option value="badminton">羽毛球</option>
+									<option value="billiards">桌球</option>
+									<option value="swimming">游泳</option>
+									<option value="other">其他</option>
+								</select>
+								<select id="subtype" class="basic-input hide" name="subtype" style="display:none">
+								</select>
+							</div>
+						</div>
+						<div class="row">
+							<label class="field">活动标题
+							</label>
+							<div class="item">
+								<input id="title" class="basic-input" name="title" maxlength="70" size="46" value='<?php echo ($activity["title"]); ?>'/>
 							</div>
 						</div>
 						      
 						<div class="row">
-							<label class="field">密码
+							<label class="field">活动地点
 							</label>
 							<div class="item">
-								<input id="pwd" class="basic-input" data-options="required:true" type="password" name="pwd" maxlength="70" size="46"/><span style="color:red">*</span>
+								<input id="address" class="basic-input" name="address" maxlength="70" size="46" value='<?php echo ($activity["address"]); ?>'/>
 							</div>
 						</div>
 						<div class="row">
-							<label class="field">邮箱
+							<label class="field">开始时间
 							</label>
 							<div class="item">
-								<input id="email" class="basic-input" name="email" maxlength="70" size="46"/>
+								<input id="startTime" name="startTime" value='<?php echo ($activity["startTime"]); ?>'></input>
 							</div>
 						</div>
 						<div class="row">
-							<label class="field">昵称
+							<label class="field">结束时间
 							</label>
 							<div class="item">
-								<input id="nickname" class="basic-input" name="nickname" maxlength="70" size="46"/>
+								<input id="endTime" name="endTime" value='<?php echo ($activity["endTime"]); ?>'></input>
+							</div>
+						</div>
+						<div class="row">
+							<label class="field">限制人数
+							</label>
+							<div class="item">
+								<input id="maxNum" class="basic-input" name="maxNum" maxlength="20" size="19" value='<?php echo ($activity["maxNum"]); ?>'/>
+							</div>
+						</div>
+						<div class="row">
+							<label class="field">活动详情
+							</label>
+							<div class="item">
+								<textarea clas="basic-input" rows="10" cols="42" 
+								max_length="4000" name="detail"><?php echo ($activity["detail"]); ?></textarea>
 							</div>
 						</div>
 						<hr class="hrline"/>
@@ -100,7 +130,6 @@
 							<div class="item">
 								<input class="loc-btn" type="button" id="submit_form" value="提交"/>
 								<input class="lnk-flat" type="button" id="cancel_form" value="取消"/>
-								<input class="loc-btn" type="button" id="go_login" value="已有账号？点我登录吧"/>
 							</div>
 						</div>
 					</form>
@@ -109,38 +138,24 @@
 			<div id="right">
 				<div class="active_info">
 					<div class="hd">
-						<h2>注册说明
+						<h2>活动创建说明
 						</h2>
 					</div>
 					<ul>
 						<li class="info_l active">
-							<div class="title_l">1、登录名和密码是必填项</div>
-							<div class="title_l">2、输入昵称，则登陆和报名后显示昵称，否则显示登录名</div>
-							<div class="title_l">3、登录名、邮箱、昵称都必须唯一，不能重复</div>
-							<div class="title_l">4、输入完成后，点击回车即可正确提交</div>
-							<div class="title_l">5、注册成功后会自动登录并转向首页</div>
+							<div class="title_l">1、活动标题、地点、开始时间、结束时间为必填项</div>
 						</li>	
 					</ul>
 				</div>	
 			</div>
 		</div>
 	</div>
-	<div id="footer"></div>
-	<script type='text/javascript'>
-		var checkUname = "<?php echo U('checkUnique','cName=uname');?>";
-		var checkEmail = "<?php echo U('checkUnique','cName=email');?>";
-		var checkNickname = "<?php echo U('checkUnique','cName=nickname');?>";
-
-		var loginUrl='<?php echo U('Login/login');?>';
-		var cancleUrl='<?php echo U('Index/index');?>';
-	</script>
 	<script src="__PUBLIC__/Js/jquery-1.8.0.min.js" type="text/javascript" ></script>
 <script type="text/javascript" src="__PUBLIC__/Js/easyui132/jquery.easyui.min.js"></script>
 <script type="text/javascript" src="__PUBLIC__/Js/easyui132/locale/easyui-lang-zh_CN.js"></script>
 <script type="text/javascript" src="__PUBLIC__/Js/easyui132/extends/extends.datebox.js"></script>
 <script type="text/javascript" src="__PUBLIC__/Js/util.js"></script>
 
-	<script type="text/javascript" src="__PUBLIC__/Js/jquery-validate.js"></script>
-	<script type="text/javascript" src="__PUBLIC__/Js/register.js"></script>
+	<script type="text/javascript" src='__PUBLIC__/Js/act_add.js'></script>
 </body>
 </html>
