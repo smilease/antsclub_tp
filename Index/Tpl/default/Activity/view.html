@@ -135,8 +135,8 @@
 		var totalSignNum={$activity.totalNum};
 		var signUsers='{$activity.signUsers}';
 		var maxNum='{$activity.maxNum}';
-		var startTime='{$activity.startTime}';
-		var endTime='{$activity.endTime}';
+		var startTime=new Date('{$activity.startTime}'.replace("-", "/").replace("-", "/")); 
+		var endTime=new Date('{$activity.endTime}'.replace("-", "/").replace("-", "/"));
 	</script>
 	<script type="text/javascript" src='__PUBLIC__/Js/act_view.js'></script>
 </body>

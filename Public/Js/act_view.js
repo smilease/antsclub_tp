@@ -1,16 +1,46 @@
 ﻿$(function(){
 	function checkTime(){
-		var myDate = new Date();
-		var d=myDate.toLocaleString( ); 
-		if(d>endTime){
+		var now = new Date(CurentTime());
+		if(now>endTime){
 			alert('活动已经结束了，不能报名了，下次赶早吧');
 			return false;
 		}
-		if(d>startTime){
+		if(now>startTime){
 			alert('活动已经开始不能报名了，下次赶早吧');
 			return false;
 		}
+		return true;
 	}
+
+	function CurentTime()
+    { 
+        var now = new Date();
+        var year = now.getFullYear();       //年
+        var month = now.getMonth() + 1;     //月
+        var day = now.getDate();            //日
+        var hh = now.getHours();            //时
+        var mm = now.getMinutes();          //分
+        var clock = year + "/";
+       
+        if(month < 10)
+            clock += "0";
+       
+        clock += month + "/";
+       
+        if(day < 10)
+            clock += "0";
+           
+        clock += day + " ";
+       
+        if(hh < 10)
+            clock += "0";
+           
+        clock += hh + ":";
+        if (mm < 10) clock += '0'; 
+        clock += mm+":00"; 
+        return(clock); 
+    } 
+
 	$('#btn_sign').click(function(){
 		if(!checkTime()){
 			return;
@@ -105,13 +135,12 @@
 	});
 
 	$('#btn_undo').click(function(){
-		var myDate = new Date();
-		var d=myDate.toLocaleString( ); 
-		if(d>endTime){
+		var now = new Date(CurentTime());
+		if(now>endTime){
 			alert('活动已经结束了，不能取消报名');
 			return;
 		}
-		if(d>startTime){
+		if(now>startTime){
 			alert('活动已经开始了，不能取消报名');
 			return;
 		}
