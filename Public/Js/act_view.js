@@ -1,5 +1,20 @@
 ﻿$(function(){
+	function checkTime(){
+		var myDate = new Date();
+		var d=myDate.toLocaleString( ); 
+		if(d>endTime){
+			alert('活动已经结束了，不能报名了，下次赶早吧');
+			return false;
+		}
+		if(d>startTime){
+			alert('活动已经开始不能报名了，下次赶早吧');
+			return false;
+		}
+	}
 	$('#btn_sign').click(function(){
+		if(!checkTime()){
+			return;
+		}
 		if(maxNum!=''&&totalSignNum>=maxNum){
 			alert('傻了吧，报名人数满了吧，下次赶早吧，骚年！');
 		}else if(uid==''||uid==null){
@@ -32,6 +47,9 @@
 	});
 
 	$('#btn_signMore').click(function(){
+		if(!checkTime()){
+			return;
+		}
 		if(uid==''||uid==null){
 			alert('请先登录才能带人报名');
 		}else{
@@ -63,7 +81,6 @@
 						},
 				dataType : 'json',
 				success : function(r){
-					console.info(r);
 					if(r.success){
 						$.messager.show({
 							title : '提示',
@@ -83,8 +100,21 @@
 		}
 		
 	});
+	$('#dlg_btn_undo').click(function(){
+		$('#dlg').dialog('close');
+	});
 
 	$('#btn_undo').click(function(){
+		var myDate = new Date();
+		var d=myDate.toLocaleString( ); 
+		if(d>endTime){
+			alert('活动已经结束了，不能取消报名');
+			return;
+		}
+		if(d>startTime){
+			alert('活动已经开始了，不能取消报名');
+			return;
+		}
 		$.ajax({
 			url : undoUrl,
 			type : 'post',
